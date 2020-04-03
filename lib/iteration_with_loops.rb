@@ -8,9 +8,8 @@ def join_nested_strings(src)
     while e_index < src[r_index].length do
       if src[r_index][e_index].is_a? String 
         new_array << src[r_index][e_index]
-        e_index += 1 
-      else
-        e_index += 1 
+      end
+        e_index += 1
     end
     r_index += 1 
   end
